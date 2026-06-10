@@ -41,7 +41,7 @@ By default, the scripts point to the ESP32 Access Point IP and use hardcoded DTL
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Running the Controller
 
