@@ -18,8 +18,8 @@ INPUT_WRITE_CODE = 0
 INPUT_CHECK_CODE = 1
 
 # gpios
-BTN_PINS = [17, 27, 22, 23]
-SEND_BTN_PIN = 24
+BTN_PINS = [27, 22, 23, 24, 25]
+SEND_BTN_PIN = 4
 data_buttons = [Button(pin, pull_up=True) for pin in BTN_PINS]
 send_button = Button(SEND_BTN_PIN, pull_up=True)
 
